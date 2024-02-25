@@ -1,0 +1,118 @@
+.header__group1 {
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  width: 1440px;
+}
+.header__rect5 {
+  background-color: #f9eccb;
+  bottom: 0px;
+  height: 1024px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 1440px;
+}
+.header__cover {
+  bottom: 0px;
+  height: 924px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 100px;
+  width: 1440px;
+}
+.header__hero_title1 {
+  align-items: center;
+  bottom: 390px;
+  color: white;
+  display: flex;
+  font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+  height: 144px;
+  justify-content: center;
+  left: 438px;
+  position: absolute;
+  right: 438px;
+  text-align: center;
+  top: 490px;
+  width: 564px;
+}
+.header__rect {
+  background-color: #74331a;
+  bottom: 924px;
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 1440px;
+}
+.header__medium_title2 {
+  bottom: 959px;
+  color: white;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  height: 29px;
+  left: 72px;
+  letter-spacing: -0.1px;
+  position: absolute;
+  right: 1235px;
+  top: 36px;
+  width: 133px;
+}
+.header__highlight1 {
+  bottom: 965px;
+  color: white;
+  font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  height: 19px;
+  left: 884px;
+  position: absolute;
+  right: 479px;
+  top: 40px;
+  width: 77px;
+}
+.header__highlight11 {
+  bottom: 965px;
+  color: white;
+  font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  height: 19px;
+  left: 985px;
+  position: absolute;
+  right: 379px;
+  top: 40px;
+  width: 76px;
+}
+.header__highlight12 {
+  bottom: 965px;
+  color: white;
+  font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  height: 19px;
+  left: 1085px;
+  position: absolute;
+  right: 267px;
+  top: 40px;
+  width: 88px;
+}
+.header__highlight13 {
+  bottom: 965px;
+  color: white;
+  font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  height: 19px;
+  left: 1197px;
+  position: absolute;
+  right: 172px;
+  top: 40px;
+  width: 71px;
+}
+.header__highlight2 {
+  bottom: 965px;
+  color: #f9eccb;
+  font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  height: 19px;
+  left: 1292px;
+  position: absolute;
+  right: 72px;
+  text-decoration: underline;
+  top: 40px;
+  width: 76px;
+}

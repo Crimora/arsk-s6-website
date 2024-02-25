@@ -1,0 +1,300 @@
+@use "utils" as *;
+@use "global" as *;
+
+.school {
+  &.main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .section1 {
+    background-color: rgb(249, 236, 203);
+    display: flex;
+    flex-direction: column;
+  }
+  .content_box1 {
+    background-color: rgb(116, 51, 26);
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_row {
+    display: flex;
+    gap: 0px 10px;
+    justify-content: space-between;
+    margin: 36px auto 35px;
+    width: 90%;
+  }
+  .medium_title2 {
+    color: rgb(255, 255, 255);
+    font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+    letter-spacing: -0.1px;
+  }
+  .flex_row1 {
+    align-items: center;
+    display: flex;
+    gap: 0px 24px;
+    margin: 4px 0px 6px;
+    width: 484px;
+  }
+  .highlight1 {
+    color: rgb(255, 255, 255);
+    font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+  }
+  .highlight2 {
+    color: rgb(249, 236, 203);
+    font: 500 16px/1.18 "Inter", Helvetica, Arial, serif;
+    text-decoration: underline;
+  }
+  .content_box {
+    background: var(--src) center center / 100% 100% no-repeat;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero_title1 {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+    justify-content: center;
+    margin: 390px auto;
+    text-align: center;
+    width: 564px;
+  }
+  .section2 {
+    background-color: rgb(249, 236, 203);
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 99px 0px;
+    margin: 32px auto 99px;
+    width: 83.89%;
+  }
+  .big_title1 {
+    align-items: center;
+    color: rgb(116, 51, 26);
+    display: flex;
+    font: 600 36px/1.22 "Inter", Helvetica, Arial, serif;
+    justify-content: center;
+    letter-spacing: -0.1px;
+    text-align: center;
+  }
+  .flex_row2 {
+    align-items: center;
+    display: flex;
+    gap: 0px 10px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .content_box2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 225px;
+    position: relative;
+    width: 255px;
+  }
+  .hero_title {
+    align-items: center;
+    bottom: 70px;
+    color: rgb(116, 51, 26);
+    display: flex;
+    font: 600 128px/1.21 "Inter", Helvetica, Arial, serif;
+    height: 155px;
+    justify-content: center;
+    left: 41.5px;
+    position: absolute;
+    right: 41.5px;
+    text-align: center;
+    top: 0px;
+    width: 172px;
+  }
+  .medium_title1 {
+    align-items: center;
+    color: rgb(116, 51, 26);
+    display: flex;
+    font: 600 24px/1.2 "Inter", Helvetica, Arial, serif;
+    height: 29px;
+    justify-content: center;
+    left: 88px;
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    width: 80px;
+  }
+  .highlight {
+    align-items: center;
+    bottom: 0px;
+    color: rgb(116, 51, 26);
+    display: flex;
+    font: 600 16px/1.18 "Inter", Helvetica, Arial, serif;
+    height: 38px;
+    justify-content: center;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    width: 255px;
+  }
+  .section3 {
+    background-color: rgb(249, 236, 203);
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0px;
+    margin: 32px auto 42px;
+    width: 83.89%;
+  }
+  .wrapper {
+    background-color: rgb(116, 51, 26);
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .content_box5 {
+    display: flex;
+    flex-direction: column;
+    height: 302px;
+    margin: 25px 40px 23px 39px;
+    min-height: 302px;
+    position: relative;
+    width: 221px;
+  }
+  .rect4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px 40px 40px 40px;
+    bottom: 52px;
+    height: 250px;
+    left: 11px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    width: 200px;
+  }
+  .medium_title {
+    align-items: center;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font: 600 24px/1.2 "Inter", Helvetica, Arial, serif;
+    height: 29px;
+    justify-content: center;
+    left: 0px;
+    letter-spacing: -0.1px;
+    position: absolute;
+    text-align: center;
+    width: 221px;
+  }
+  .image5 {
+    height: 211px;
+    left: 29px;
+    position: absolute;
+    top: 80px;
+    width: 164px;
+  }
+  .section4 {
+    background-color: rgb(249, 236, 203);
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_col2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0px;
+    margin: 32px auto 24px;
+    width: 83.89%;
+  }
+  .content_box8 {
+    display: flex;
+    flex-direction: column;
+    min-height: 518px;
+    position: relative;
+    width: 100%;
+  }
+  .image {
+    bottom: 165px;
+    height: 353px;
+    left: 0px;
+    position: absolute;
+    right: 700px;
+    top: 0px;
+    width: 508px;
+  }
+  .flex_col3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 33px 0px;
+    height: 301px;
+    left: 587px;
+    position: absolute;
+    top: 26px;
+    width: 621px;
+  }
+  .image1 {
+    width: 100%;
+  }
+  .image2 {
+    border-radius: 40px 40px 40px 40px;
+    width: 99.68%;
+  }
+  .flex_row3 {
+    align-items: center;
+    bottom: 0px;
+    display: flex;
+    gap: 0px 10px;
+    height: 100px;
+    justify-content: space-between;
+    left: 0px;
+    position: absolute;
+    width: 1208px;
+  }
+  .image3 {
+    border-radius: 40px 40px 40px 40px;
+    width: 376px;
+  }
+  .image4 {
+    border-radius: 40px 40px 40px 40px;
+    width: 377px;
+  }
+  .section5 {
+    background-color: rgb(116, 51, 26);
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_row4 {
+    align-items: center;
+    display: flex;
+    gap: 0px 10px;
+    justify-content: space-between;
+    margin: 28px auto;
+    width: 986px;
+  }
+  .big_title_box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .big_title {
+    color: rgb(0, 0, 0);
+    font: 600 36px/1.22 "Inter", Helvetica, Arial, serif;
+    text-align: center;
+  }
+  .big_title_span0 {
+    color: rgb(255, 255, 255);
+    font: 600 1em/1.22 "Inter", Helvetica, Arial, serif;
+  }
+  .big_title_span1 {
+    color: rgb(249, 236, 203);
+    font: 600 1em/1.22 "Inter", Helvetica, Arial, serif;
+    text-decoration: underline;
+  }
+}
