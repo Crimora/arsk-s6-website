@@ -1,4 +1,4 @@
-## pxCode HTML Project
+## School HTML Project
 
 ### 1. Prerequisite
 
